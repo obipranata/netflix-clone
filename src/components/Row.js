@@ -1,8 +1,8 @@
 import movieTrailer from 'movie-trailer';
 import React, { useState, useEffect } from 'react';
 import YouTube from 'react-youtube';
-import axios from './axios';
-import "./Row.css"
+import axios from '../utils/axios';
+import "../css/Row.css"
 
 const base_url = "https://image.tmdb.org/t/p/original";
 
